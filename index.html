@@ -4,7 +4,7 @@
 <html>
 
 <head>
-    <title>Pick To Light</title>
+    <title>Pick To Light System</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,11 +17,19 @@
 
     <div id="reader" style="width:300px;"></div>
 
-    <br>
+    <div id="scanStatus"></div>
+
+    <button onclick="restartScanner()">
+    Scan Again
+</button>
+
+    <br><br>
 
     <input type="text" id="partInput" placeholder="Enter Part Number">
 
-    <button onclick="findPart()">Search</button>
+    <button onclick="findPart()">
+    Search
+</button>
 
     <button onclick="exportHistory()">
     Export History
