@@ -9,40 +9,96 @@
 </head>
 
 <body>
+    <div class="header">
 
-    <h1>Pick To Light System</h1>
 
-    <h2>Scan QR Code</h2>
+        <div class="header-left">
 
-    <div id="reader" style="width:300px;"></div>
+            <h1>PICK TO LIGHT SYSTEM</h1>
 
-    <div id="scanStatus"></div>
+            <p>
+                Smart Supermarket Replenishment Solution
+            </p>
 
-    <button onclick="restartScanner()">
+        </div>
+
+        <div class="header-right">
+
+            <h2>DEV ELECTRIC</h2>
+
+            <p>Methods Engineering Team</p>
+
+            <p>Developed By: Devananda K</p>
+
+            <p>Version 1.0</p>
+
+        </div>
+
+
+    </div>
+
+    <div class="scanner-section">
+
+
+        <h2>Scan QR Code</h2>
+        <div class="connection-status">
+
+            <span id="statusDot"></span>
+
+            <span id="statusText">
+            Checking...
+        </span>
+
+        </div>
+
+        <div id="reader"></div>
+
+        <div id="scanStatus"></div>
+
+        <button onclick="restartScanner()">
     Scan Again
 </button>
 
-    <br><br>
 
-    <input type="text" id="partInput" placeholder="Enter Part Number">
+    </div>
 
-    <button onclick="findPart()">
+    <div class="search-section">
+
+
+        <input type="text" id="partInput" placeholder="Enter Part Number">
+
+        <button onclick="findPart()">
     Search
 </button>
 
-    <button onclick="exportHistory()">
+    </div>
+
+    <div class="part-card">
+
+
+        <h2>Part Information</h2>
+
+        <div id="result"></div>
+
+    </div>
+
+    <div class="buttons">
+
+
+        <button onclick="exportHistory()">
     Export History
 </button>
 
-    <button onclick="clearHistory()">
+        <button onclick="clearHistory()">
     Clear History
 </button>
 
-    <div id="result"></div>
+    </div>
 
     <h2>Scan History</h2>
 
-    <table border="1" id="historyTable">
+    <table id="historyTable">
+
 
         <tr>
             <th>Date</th>
@@ -53,9 +109,12 @@
 
     </table>
 
+    </table>
+
     <script src="https://unpkg.com/html5-qrcode"></script>
 
     <script src="script.js"></script>
+
 
 </body>
 

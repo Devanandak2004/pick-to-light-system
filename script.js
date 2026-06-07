@@ -88,6 +88,40 @@ function updateHistoryTable() {
     });
 }
 
+function checkESP32Status() {
+
+    fetch("http://10.190.110.228/status")
+
+    .then(function(response) {
+
+        document.getElementById(
+                "statusDot"
+            ).style.background =
+            "#19a857";
+
+        document.getElementById(
+                "statusText"
+            ).innerHTML =
+            "Connected";
+
+    })
+
+    .catch(function(error) {
+
+        document.getElementById(
+                "statusDot"
+            ).style.background =
+            "red";
+
+        document.getElementById(
+                "statusText"
+            ).innerHTML =
+            "Disconnected";
+
+    });
+
+}
+
 // Export CSV
 function exportHistory() {
     var csv = "Date,Time,Part Number,Location\n";
@@ -151,4 +185,10 @@ let html5QrcodeScanner = null;
 document.addEventListener("DOMContentLoaded", function() {
     html5QrcodeScanner = new Html5QrcodeScanner("reader", { fps: 10, qrbox: 250 });
     html5QrcodeScanner.render(onScanSuccess);
+    setInterval(
+        checkESP32Status,
+        5000
+    );
+
+    checkESP32Status();
 });
