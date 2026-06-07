@@ -4,29 +4,38 @@
     { "part": "HUA24151", "location": "C1", "led": "3", "min": "720", "max": "1440" },
     { "part": "HUA31254", "location": "D1", "led": "4", "min": "3000", "max": "4500" },
     { "part": "HUA33361", "location": "E1", "led": "5", "min": "1000", "max": "2000" },
-    { "part": "128-1500-Z", "location": "A2", "led": "6", "min": "2000", "max": "4000" },
-    { "part": "147-0120-Z", "location": "B2", "led": "7", "min": "1000", "max": "2000" },
-    { "part": "202-2102-Z", "location": "C2", "led": "8", "min": "1000", "max": "2000" },
-    { "part": "234-0154-Z", "location": "D2", "led": "9", "min": "1000", "max": "2000" },
-    { "part": "234-0474-Z", "location": "E2", "led": "10", "min": "720", "max": "1440" },
-    { "part": "234-2105-Z", "location": "A3", "led": "11", "min": "1120", "max": "2240" },
-    { "part": "234-9103-Z", "location": "B3", "led": "12", "min": "1000", "max": "2000" },
-    { "part": "340-5408-Z", "location": "C3", "led": "13", "min": "2000", "max": "4000" },
-    { "part": "TME05776", "location": "D3", "led": "14", "min": "1000", "max": "2000" },
-    { "part": "29231102HS", "location": "E3", "led": "15", "min": "1000", "max": "2000" },
-    { "part": "HUA26163", "location": "A4", "led": "16", "min": "500", "max": "1000" },
-    { "part": "HUA26783", "location": "B4", "led": "17", "min": "800", "max": "1600" },
-    { "part": "HUA27350", "location": "C4", "led": "18", "min": "1000", "max": "2000" },
-    { "part": "HUA28587", "location": "D4", "led": "19", "min": "1000", "max": "2000" },
-    { "part": "HUA28823", "location": "E4", "led": "20", "min": "840", "max": "1680" },
-    { "part": "HUA30271", "location": "A5", "led": "21", "min": "420", "max": "840" },
-    { "part": "HUA33318", "location": "B5", "led": "22", "min": "1000", "max": "2000" },
-    { "part": "HUA35511", "location": "C5", "led": "23", "min": "500", "max": "1000" },
-    { "part": "HUA37914", "location": "D5", "led": "24", "min": "600", "max": "1200" },
-    { "part": "HUA39553", "location": "E5", "led": "25", "min": "600", "max": "1200" },
-    { "part": "HUA45522", "location": "A6", "led": "26", "min": "500", "max": "1000" },
-    { "part": "TME09986", "location": "B6", "led": "27", "min": "1250", "max": "2500" },
-    { "part": "320-0017-Z", "location": "C6", "led": "28", "min": "500", "max": "2000" },
-    { "part": "341-1640-Z", "location": "D6", "led": "29", "min": "1000", "max": "2000" },
-    { "part": "HUA15121", "location": "E6", "led": "30", "min": "3900", "max": "5200" }
+
+
+    { "part": "128-1500-Z", "location": "A2", "led": "1", "min": "2000", "max": "4000" },
+    { "part": "147-0120-Z", "location": "B2", "led": "2", "min": "1000", "max": "2000" },
+    { "part": "202-2102-Z", "location": "C2", "led": "3", "min": "1000", "max": "2000" },
+    { "part": "234-0154-Z", "location": "D2", "led": "4", "min": "1000", "max": "2000" },
+    { "part": "234-0474-Z", "location": "E2", "led": "5", "min": "720", "max": "1440" },
+
+    { "part": "234-2105-Z", "location": "A3", "led": "1", "min": "1120", "max": "2240" },
+    { "part": "234-9103-Z", "location": "B3", "led": "2", "min": "1000", "max": "2000" },
+    { "part": "340-5408-Z", "location": "C3", "led": "3", "min": "2000", "max": "4000" },
+    { "part": "TME05776", "location": "D3", "led": "4", "min": "1000", "max": "2000" },
+    { "part": "29231102HS", "location": "E3", "led": "5", "min": "1000", "max": "2000" },
+
+    { "part": "HUA26163", "location": "A4", "led": "1", "min": "500", "max": "1000" },
+    { "part": "HUA26783", "location": "B4", "led": "2", "min": "800", "max": "1600" },
+    { "part": "HUA27350", "location": "C4", "led": "3", "min": "1000", "max": "2000" },
+    { "part": "HUA28587", "location": "D4", "led": "4", "min": "1000", "max": "2000" },
+    { "part": "HUA28823", "location": "E4", "led": "5", "min": "840", "max": "1680" },
+
+    { "part": "HUA30271", "location": "A5", "led": "1", "min": "420", "max": "840" },
+    { "part": "HUA33318", "location": "B5", "led": "2", "min": "1000", "max": "2000" },
+    { "part": "HUA35511", "location": "C5", "led": "3", "min": "500", "max": "1000" },
+    { "part": "HUA37914", "location": "D5", "led": "4", "min": "600", "max": "1200" },
+    { "part": "HUA39553", "location": "E5", "led": "5", "min": "600", "max": "1200" },
+
+    { "part": "HUA45522", "location": "A6", "led": "1", "min": "500", "max": "1000" },
+    { "part": "TME09986", "location": "B6", "led": "2", "min": "1250", "max": "2500" },
+    { "part": "320-0017-Z", "location": "C6", "led": "3", "min": "500", "max": "2000" },
+    { "part": "341-1640-Z", "location": "D6", "led": "4", "min": "1000", "max": "2000" },
+    { "part": "HUA15121", "location": "E6", "led": "5", "min": "3900", "max": "5200" }
+
+
+
 ]
